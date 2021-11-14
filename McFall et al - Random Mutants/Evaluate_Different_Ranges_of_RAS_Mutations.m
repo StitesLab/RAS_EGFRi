@@ -3,7 +3,12 @@
 
 % The matrices of Random factors that are needed for this script
 % are each > 100MB and exceed the GitHub file size limits.
-% Please contact the corresponding author for these files.
+% Please contact the corresponding author if you would like files for the exact set of
+% random numbers used.
+% Alternatively, one could create their own set of random numbers where all
+% are within 1, 2, or 3 orders of magnitude, and where the dependent
+% parameters that are functions of the independent parameters are also
+% within the same order of magnitude.
 
 % The output of the script is ultimately five text files.
 % Copies of these five output text files are included.
