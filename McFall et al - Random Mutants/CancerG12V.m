@@ -1,0 +1,15 @@
+mkint=(.39/2.6)*kint;
+mkdissD=(1.3/4.2)*kdissD;
+mkdissT=.8*kdissT;       
+mkassD=(1.16/.51)*kassD; 
+mkassT=(5.8/1.4)*kassT; 
+mkcat=mkint; 
+mKm=Km;
+mKd=Kd/2.25;
+mkassEff=kassEff;
+mkdissEff=mKd*mkassEff;
+mH=(mkassD*mkdissT)/(mkdissD*mkassT); 
+mkD=3.9;
+mKmD=3.86e-4/volscale;
+mKmT=3e-4/volscale;
+mkT=mkD*mKmT*mH/mKmD;

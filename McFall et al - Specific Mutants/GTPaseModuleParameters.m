@@ -1,0 +1,17 @@
+kint=3.5e-4;
+kdissD=1.1e-4;
+kdissT=2.5e-4;
+kassD=2.3e6; 
+kassT=2.2e6; 
+kassD=kassD*GDP;
+kassT=kassT*GTP;
+H_int=(kassD*kdissT)/(kdissD*kassT);  
+kcat=5.4;
+Km=.23e-6/volscale;
+kD=3.9;
+KmD=3.86e-4/volscale;
+KmT=3e-4/volscale;
+kT=kD*KmT*H_int/KmD;
+Kd=80e-9;
+kassEff=4.5e7;
+kdissEff=kassEff*Kd;
